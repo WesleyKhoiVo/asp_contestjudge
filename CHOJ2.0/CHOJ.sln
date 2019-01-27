@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ", "CHOJ\CHOJ.csproj", "{A7131123-F0BE-4CA4-9D94-A77397DDA253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ.Core", "CHOJ.Core\CHOJ.Core.csproj", "{AF5D2801-A8E7-4CDC-815F-4813672C186E}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CHOJCloud", "CHOJCloud\CHOJCloud.ccproj", "{959786E8-B15D-47E8-9071-5A5C77BBE59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ.Service", "CHOJ.Service\CHOJ.Service.csproj", "{3F7D98AA-A4C0-4BCC-9671-0DD15782DA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ.Abstractions", "CHOJ.Abstractions\CHOJ.Abstractions.csproj", "{2EF1680B-104B-4CF7-A379-63CA9BB0AF07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{A6B1BB04-E6BC-4716-8206-BA2CF5098DAD}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\Castle.DynamicProxy.dll = DLL\Castle.DynamicProxy.dll
+		DLL\IBatisNet.Common.dll = DLL\IBatisNet.Common.dll
+		DLL\IBatisNet.Common.Logging.Log4Net.dll = DLL\IBatisNet.Common.Logging.Log4Net.dll
+		DLL\IBatisNet.DataAccess.dll = DLL\IBatisNet.DataAccess.dll
+		DLL\IBatisNet.DataMapper.dll = DLL\IBatisNet.DataMapper.dll
+		DLL\log4net.dll = DLL\log4net.dll
+		DLL\Microsoft.Cloud.Storage.PExtensions.dll = DLL\Microsoft.Cloud.Storage.PExtensions.dll
+		DLL\Microsoft.Samples.Cloud.Data.dll = DLL\Microsoft.Samples.Cloud.Data.dll
+		DLL\Microsoft.SqlServices.Data.SDK.Common.dll = DLL\Microsoft.SqlServices.Data.SDK.Common.dll
+		DLL\StorageClient.dll = DLL\StorageClient.dll
+		DLL\System.Threading.dll = DLL\System.Threading.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{345EAFFE-95EB-4BE3-B627-A9F5D19DC00F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sds", "Sds", "{3B6220AE-1290-4C32-B5EE-8FC8DC4B58FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ.SdsDao", "CHOJ.SdsDao\CHOJ.SdsDao.csproj", "{60FC9959-4502-4D1A-9FCE-8B863B6D45AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VJSharp", "VJSharp", "{FE60FB67-3CCE-4369-9214-B9403C6C6C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VJSCodeProvider", "VJSharpCodeProvider\VJSCodeProvider.csproj", "{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHOJ.Content", "CHOJ.Content\CHOJ.Content.csproj", "{7DD74502-BBFD-4A83-AA83-9ECF8206A2F7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs03.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CHOJ.Core\\CHOJ.Core.csproj
+		SccProjectName1 = CHOJ.Core
+		SccLocalPath1 = CHOJ.Core
+		SccProjectUniqueName2 = CHOJ\\CHOJ.csproj
+		SccProjectName2 = CHOJ
+		SccLocalPath2 = CHOJ
+		SccProjectUniqueName3 = CHOJCloud\\CHOJCloud.ccproj
+		SccProjectTopLevelParentUniqueName3 = CHOJ.sln
+		SccProjectName3 = CHOJCloud
+		SccLocalPath3 = CHOJCloud
+		SccProjectUniqueName4 = CHOJ.Service\\CHOJ.Service.csproj
+		SccProjectName4 = CHOJ.Service
+		SccLocalPath4 = CHOJ.Service
+		SccProjectUniqueName5 = CHOJ.Abstractions\\CHOJ.Abstractions.csproj
+		SccProjectName5 = CHOJ.Abstractions
+		SccLocalPath5 = CHOJ.Abstractions
+		SccProjectUniqueName6 = CHOJ.SdsDao\\CHOJ.SdsDao.csproj
+		SccProjectTopLevelParentUniqueName6 = CHOJ.sln
+		SccProjectName6 = CHOJ.SdsDao
+		SccLocalPath6 = CHOJ.SdsDao
+		SccProjectUniqueName7 = VJSharpCodeProvider\\VJSCodeProvider.csproj
+		SccProjectTopLevelParentUniqueName7 = CHOJ.sln
+		SccProjectName7 = VJSharpCodeProvider
+		SccLocalPath7 = VJSharpCodeProvider
+		SccProjectUniqueName8 = CHOJ.Content\\CHOJ.Content.csproj
+		SccProjectName8 = CHOJ.Content
+		SccLocalPath8 = CHOJ.Content
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7131123-F0BE-4CA4-9D94-A77397DDA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7131123-F0BE-4CA4-9D94-A77397DDA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7131123-F0BE-4CA4-9D94-A77397DDA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7131123-F0BE-4CA4-9D94-A77397DDA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5D2801-A8E7-4CDC-815F-4813672C186E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5D2801-A8E7-4CDC-815F-4813672C186E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5D2801-A8E7-4CDC-815F-4813672C186E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5D2801-A8E7-4CDC-815F-4813672C186E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959786E8-B15D-47E8-9071-5A5C77BBE59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959786E8-B15D-47E8-9071-5A5C77BBE59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959786E8-B15D-47E8-9071-5A5C77BBE59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959786E8-B15D-47E8-9071-5A5C77BBE59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7D98AA-A4C0-4BCC-9671-0DD15782DA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7D98AA-A4C0-4BCC-9671-0DD15782DA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7D98AA-A4C0-4BCC-9671-0DD15782DA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7D98AA-A4C0-4BCC-9671-0DD15782DA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF1680B-104B-4CF7-A379-63CA9BB0AF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF1680B-104B-4CF7-A379-63CA9BB0AF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF1680B-104B-4CF7-A379-63CA9BB0AF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF1680B-104B-4CF7-A379-63CA9BB0AF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FC9959-4502-4D1A-9FCE-8B863B6D45AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC9959-4502-4D1A-9FCE-8B863B6D45AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC9959-4502-4D1A-9FCE-8B863B6D45AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC9959-4502-4D1A-9FCE-8B863B6D45AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD74502-BBFD-4A83-AA83-9ECF8206A2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD74502-BBFD-4A83-AA83-9ECF8206A2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD74502-BBFD-4A83-AA83-9ECF8206A2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD74502-BBFD-4A83-AA83-9ECF8206A2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{959786E8-B15D-47E8-9071-5A5C77BBE59E} = {345EAFFE-95EB-4BE3-B627-A9F5D19DC00F}
+		{60FC9959-4502-4D1A-9FCE-8B863B6D45AD} = {3B6220AE-1290-4C32-B5EE-8FC8DC4B58FA}
+		{EF7A8C41-FC94-4EE7-A35B-36CEE08C8B3B} = {FE60FB67-3CCE-4369-9214-B9403C6C6C91}
+	EndGlobalSection
+EndGlobal

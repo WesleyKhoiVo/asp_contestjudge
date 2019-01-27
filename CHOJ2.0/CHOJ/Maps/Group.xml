@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sqlMap xmlns="http://ibatis.apache.org/mapping"
+		namespace="Group"
+			    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			  >
+	<alias>
+		<typeAlias alias="Group" type="CHOJ.Models.Group" />
+		</alias>
+	       
+	<resultMaps>                                    
+	</resultMaps>
+	<!-- =============================================
+        MAPPED STATEMENTS 
+    ============================================= 
+    -->
+	<statements>
+		<select id="AllGroup" resultClass="Group">
+      SELECT * FROM [Group]
+    </select>
+		
+	</statements>
+
+	
+	
+</sqlMap>

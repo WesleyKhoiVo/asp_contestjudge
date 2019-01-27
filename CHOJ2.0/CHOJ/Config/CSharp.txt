@@ -1,0 +1,6 @@
+﻿using System;
+using System.Collections.Generic;
+[assembly: System.Security.Permissions.PermissionSet(System.Security.Permissions.SecurityAction.RequestOptional,Name="Internet")]
+[assembly: System.Security.Permissions.SecurityPermission(System.Security.Permissions.SecurityAction.RequestMinimum, Flags = System.Security.Permissions.SecurityPermissionFlag.Execution)]
+[assembly: System.Security.Permissions.UIPermission(System.Security.Permissions.SecurityAction.RequestMinimum, Unrestricted = true)]
+[assembly: System.Security.Permissions.FileIOPermission(System.Security.Permissions.SecurityAction.RequestMinimum, AllFiles = System.Security.Permissions.FileIOPermissionAccess.NoAccess)]

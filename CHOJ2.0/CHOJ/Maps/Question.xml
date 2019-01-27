@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sqlMap xmlns="http://ibatis.apache.org/mapping"
+		namespace="Question"
+			    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			  >
+	<alias>
+		<typeAlias alias="Question" type="CHOJ.Models.Question" />
+
+	</alias>
+	       
+	<resultMaps>                                    
+	</resultMaps>
+	<!-- =============================================
+        MAPPED STATEMENTS 
+    ============================================= 
+    -->
+	<statements>
+	 
+		<select id="AllQuestion" resultClass="Question">
+      SELECT * FROM [Question]
+    </select>
+		
+	</statements>
+
+	
+	
+</sqlMap>
